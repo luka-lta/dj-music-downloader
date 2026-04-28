@@ -6,8 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A0B343BF2FA139040042065D /* yt-dlp in Resources */ = {isa = PBXBuildFile; fileRef = A0B343BE2FA139040042065D /* yt-dlp */; };
+		A0B343C02FA139040042065D /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0B343BC2FA139040042065D /* ffmpeg */; };
+		A0B343C12FA139040042065D /* spotdl in Resources */ = {isa = PBXBuildFile; fileRef = A0B343BD2FA139040042065D /* spotdl */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A0B343992FA136360042065D /* dj-music-downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dj-music-downloader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B343BC2FA139040042065D /* ffmpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = "<group>"; };
+		A0B343BD2FA139040042065D /* spotdl */ = {isa = PBXFileReference; lastKnownFileType = text; path = spotdl; sourceTree = "<group>"; };
+		A0B343BE2FA139040042065D /* yt-dlp */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "yt-dlp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +41,9 @@
 		A0B343902FA136360042065D = {
 			isa = PBXGroup;
 			children = (
+				A0B343BC2FA139040042065D /* ffmpeg */,
+				A0B343BD2FA139040042065D /* spotdl */,
+				A0B343BE2FA139040042065D /* yt-dlp */,
 				A0B3439B2FA136360042065D /* dj-music-downloader */,
 				A0B3439A2FA136360042065D /* Products */,
 			);
@@ -109,6 +121,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B343BF2FA139040042065D /* yt-dlp in Resources */,
+				A0B343C02FA139040042065D /* ffmpeg in Resources */,
+				A0B343C12FA139040042065D /* spotdl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +269,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 74233Z9998;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -286,7 +301,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 74233Z9998;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
